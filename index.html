@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route 2nd Task</title>
+</head>
+
+<body style="background-color: thistle;">
+    <form action="">
+        <fieldset>
+            <legend style="background-color: floralwhite;">Personal Data</legend>
+            <fieldset style="background-color: antiquewhite;">
+                <legend style="background-color: floralwhite;">Your Name</legend>
+                <table>
+                    <tr>
+                        <td><label for="fname">First name:</label></td>
+                        <td><input type="text" placeholder="enter your first name" name="fname" id="fname"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="lname">Last name:</label></td>
+                        <td><input type="text" placeholder="enter your last name" id="lname" id="lname"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br> <br> <br>
+            <table>
+                <form action="">
+                    <tr>
+                        <td>
+                            <label for="phone">Enter your Phone:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="phone" placeholder="phone" id="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Enter your email:</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Enter your password:</label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="re-password">Re-enter your password:</label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="re-enter password" name="re-password" id="re-password">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+            <br> <br>
+            <span>Select your gender:</span>
+            <br>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">female</label>
+
+            <br> <br>
+
+            <input type="checkbox" name="status" value="student">
+            <label for="status">Student</label>
+            <br>
+            <input type="checkbox" name="status" value="Graduated">
+            <label for="status">Graduated</label>
+
+            <br> <br>
+            <label for="colleges">Select your college:</label>
+            <br>
+            <select name="colleges" id="colleges">
+                <optgroup label="Public Colleges">
+                    <option value="Cairo">Faculty of Engineering - Cairo</option>
+                    <option value="Ain-Shams">Faculty of Medicine - Ain Shams</option>
+                    <option value="Helwan">Faculty of Bussiness - Helwan</option>
+                </optgroup>
+                <optgroup label="Private colleges">
+                    <option value="BUE">Faculty of Pharmacy - BUE</option>
+                    <option value="AUC">Faculty of Biomedical Sciences - AUC</option>
+                    <option value="MSA">Faculty of Architecture Design - MSA</option>
+                </optgroup>
+            </select>
+            <br>
+            <button type="submit"><img src="imgs/submit_image.png" alt="Select button image" width="100px"></button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
